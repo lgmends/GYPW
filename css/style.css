@@ -92,3 +92,82 @@ color: white;
   background: blanchedalmond;
 }
 
+/* section: what we do */
+.items{
+  display: flex;
+  padding: 1rem;
+}
+
+#what .items .item{
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+#what .items .item i{
+  background: blanchedalmond;
+  color: purple;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+/* section for who we are */
+#who{
+  display: flex;
+}
+
+#who div{
+  flex: 1;
+}
+
+#who .who-img{
+  background: url("../img/img2.jpg") no-repeat center/cover; 
+}
+
+.bg-light{
+  background: #93cb52;
+  color: #333;
+}
+
+.bg-dark{
+  color: #f4f4f4;
+  background: #333;
+}
+
+.p-1{
+  padding: 1.5rem;
+}
+
+.p-2{
+  padding: 2rem;
+}
+
+.p-3{
+  padding: 3rem;
+}
+
+.list{
+  margin: 0.5rem 0;
+  list-style: none;
+}
+
+.list li{
+  padding: 0.5rem 0;
+  border-bottom: #444 dotted 1px;
+}
+
+
+/* Partners */
+#partners{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#partners .items img{
+  display: block;
+  margin: auto 15px;
+  width: 90px;
+  height: 90px; 
+}
