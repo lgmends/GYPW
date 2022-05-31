@@ -20,7 +20,7 @@ p{
 /* code for the navbar */
 #navbar{
 background: blue;
-color: beige;
+color: blanchedalmond;
 top: 0;
 position: sticky;
 display: flex;
@@ -36,13 +36,13 @@ ul{
 }
 
 #navbar ul li a{
-  color: brown;
+  color: plum;
   padding: 0.75rem;
   margin: 0.02rem;
 }
 
 #navbar ul li a:hover{
-  background: burlywood;
+  background: blanchedalmond;
   border-radius: 5px;
 }
 
@@ -144,8 +144,8 @@ color: white;
 }
 
 #what .items .item i{
-  background: blanchedalmond;
-  color: purple;
+  background: plum;
+  color: blue;
   padding: 1rem;
   border-radius: 50%;
 }
@@ -164,12 +164,12 @@ color: white;
 }
 
 .bg-light{
-  background: #93cb52;
+  background: peachpuff;
   color: #333;
 }
 
 .bg-dark{
-  color: #f4f4f4;
+  color: #fff;
   background: #333;
 }
 
@@ -186,6 +186,7 @@ color: white;
 }
 
 .list{
+  display: block;
   margin: 0.5rem 0;
   list-style: none;
 }
@@ -206,20 +207,21 @@ color: white;
 
 #partners .items img{
   display: block;
-  margin: auto 15px;
+  margin: 0 15px;
   width: 90px;
   height: 90px; 
 }
 
+
 /* section: contact us */
 .bg-primary{
-  background: azure;
+  background: white;
   color: black;
 }
 
 #contact{
   width: 80%;
-  margin: 0 auto;
+  margin: 0.75 auto;
 }
 
 #contact .contact-form .form-group{
@@ -234,3 +236,4 @@ color: white;
   width: 100%;
   padding: 0.5rem;
 }
+/* code for media quesrries */
