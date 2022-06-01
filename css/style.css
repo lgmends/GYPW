@@ -149,13 +149,6 @@ color: white;
   padding: 1rem;
   border-radius: 50%;
 }
-/* smartphones */
-@media (max-width: 500px){
-  body{
-    display: none;
-  }
-}
-
 
 /* section for who we are */
 #who{
